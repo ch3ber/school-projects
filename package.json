@@ -1,7 +1,7 @@
 {
-  "name": "veterinaria-landing-page",
+  "name": "school-projects",
   "version": "1.0.0",
-  "description": "Landing page for a veterinaria",
+  "description": "only school projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   "keywords": [
     "html",
     "css",
-    "noJavascript"
+    "javascript"
   ],
   "author": "Eber Edrey Alejo Berrones <eber4202@hotmail.com>",
   "license": "MIT",
