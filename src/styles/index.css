@@ -2,7 +2,6 @@
 
 @import "./base/vars.css";
 @import "./base/globals.css";
-@import "./base/utils.css";
 
 @import "./layout/nav.css";
 @import "./layout/home.css";

@@ -15,42 +15,53 @@
 
 <body>
   <header class="nav-container">
-    <h1 class="nav-container__title">Veterinaria Codigo</h1>
+    <a href="index.html">
+      <h1 class="nav-container__title">Veterinaria Codigo</h1>
+    </a>
     <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-list__item"><a class="nav-list__item__link" href="index.html">Inicio</a></li>
-        <li class="nav-list__item"><a class="nav-list__item__link" href="horario.html">Horario</a></li>
-        <li class="nav-list__item"><a class="nav-list__item__link" href="horario.html">Testimonios</a></li>
+      <ul class="nav__list">
+        <li class="nav__list__item"><a class="nav__list__item__link" href="index.html">Inicio</a></li>
+        <li class="nav__list__item"><a class="nav__list__item__link nav__list__item__link--active" href="horario.html">Horario</a></li>
+        <li class="nav__list__item"><a class="nav__list__item__link" href="horario.html">Testimonios</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <marquee>Con los mejores doctores y la mejor tecnologia. Un gusto atender a tu mascota</marquee>
-    <table border="1" cellpadding="10">
-      <tbody>
-        <tr>
-          <td>Sucursal</td>
-          <td>Dias de atencion</td>
-          <td>Horas de atencion</td>
-        </tr>
-        <tr>
-          <td>Sed venenatis dui sit amet</td>
-          <td>Lunes a viernes</td>
-          <td>7am a 5pm</td>
-        </tr>
-        <tr>
-          <td>Donec in tincidunt sapien</td>
-          <td>Lunes a viernes</td>
-          <td>7am a 5pm</td>
-        </tr>
-        <tr>
-          <td>Nulla ut leo et turpis semper malesuad</td>
-          <td>Lunes a viernes</td>
-          <td>7am a 5pm</td>
-        </tr>
-      </tbody>
-    </table>
+  <main class="horario-container">
+    <div class="hero-overlay">
+      <img class="hero" src="../src/assets/hero-horario.jpeg" alt="Black Cat">
+    </div>
+
+    <div class="horario-content">
+
+      <h2 class="horario-content__title">Horario de atencion a clientes</h2>
+      <marquee>Con los mejores doctores y la mejor tecnologia. Un gusto atender a tu mascota</marquee>
+      <table border="1" cellpadding="10">
+        <tbody>
+          <tr class="table-titles">
+            <td>Sucursal</td>
+            <td>Dias de atencion</td>
+            <td>Horas de atencion</td>
+          </tr>
+          <tr>
+            <td>Sed venenatis dui sit amet</td>
+            <td>Lunes a viernes</td>
+            <td>7am a 5pm</td>
+          </tr>
+          <tr>
+            <td>Donec in tincidunt sapien</td>
+            <td>Lunes a viernes</td>
+            <td>7am a 5pm</td>
+          </tr>
+          <tr>
+            <td>Nulla ut leo et turpis semper malesuad</td>
+            <td>Lunes a viernes</td>
+            <td>7am a 5pm</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
   </main>
 
 </body>
