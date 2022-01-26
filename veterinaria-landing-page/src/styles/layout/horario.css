@@ -1,24 +1,22 @@
-.horario-container {
-  display: flex;
-  justify-content: space-between;
+.horario_container {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
   align-items: center;
 }
-.horario-content {
-  margin: 0 4rem;
+.horario_content {
+  margin: 0 3rem;
+  justify-self: center;
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  gap: 4rem;
 }
-.horario-content .horario-content__title {
+.horario_content__title {
   font-size: 3rem;
   text-align: center;
   text-transform: capitalize;
-}
-.hero-overlay {
-  max-width: 50vw;
-  width: 50vw;
 }
 .hero {
   max-width: 50vw;
@@ -26,7 +24,7 @@
   width: 50vw;
   height: 88vh;
 }
-.table-titles {
+.table_titles {
   color: var(--blue-600);
   font-weight: bold;
   text-align: center;

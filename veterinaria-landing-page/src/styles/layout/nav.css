@@ -1,4 +1,4 @@
-.nav-container {
+.nav_container {
   background-color: var(--black);
   display: flex;
   align-items: center;
@@ -6,17 +6,16 @@
   padding: 0 5rem;
   height: 12vh;
 }
-.nav-container a {
+.nav_container__link_title {
   text-decoration: none;
 }
-
-.nav-container a .nav-container__title {
+.nav_container__title {
   font-size: 3rem;
   display: flex;
   color: var(--blue-200);
   position: relative;
 }
-.nav-container a .nav-container__title::before {
+.nav_container__title::before {
   position: absolute;
   bottom: 0;
   content: "";
@@ -28,24 +27,24 @@
   display: inline;
 }
 
-.nav .nav__list {
+.nav__list {
   display: flex;
   list-style: none;
   gap: 3rem;
 }
-.nav .nav__list .nav__list__item .nav__list__item__link {
+.nav__link {
   text-decoration: none;
   color: var(--blue-200);
   transition: color 300ms ease;
   position: relative;
 }
-.nav .nav__list .nav__list__item .nav__list__item__link:hover {
+.nav__link:hover {
   color: var(--blue-700);
 }
-.nav .nav__list .nav__list__item .nav__list__item__link--active {
-  color: var(--blue-300);
+.nav__link--active {
+  color: var(--blue-400);
 }
-.nav .nav__list .nav__list__item .nav__list__item__link--active::before {
+.nav__link--active::before {
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -54,7 +53,7 @@
   height: 0.3rem;
   background-color: var(--blue-600);
 }
-.nav .nav__list .nav__list__item .nav__list__item__link--active::after {
+.nav__link--active::after {
   position: absolute;
   top: -4px;
   left: 0;
