@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--primaryColor);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+  padding: 0.5rem;
+}
+.nav__link {
+  color: var(--black);
+}
