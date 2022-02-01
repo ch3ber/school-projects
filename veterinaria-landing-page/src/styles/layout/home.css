@@ -1,4 +1,4 @@
-.home-container {
+.home_container {
   max-height: 88vh;
   height: 88vh;
   overflow: hidden;
@@ -7,7 +7,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.home-section {
+.home_section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,12 +18,12 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.home-section__title {
+.home_section__title {
   color: var(--white);
   font-size: 5rem;
   margin: 0;
 }
-.home-section__paragraph {
+.home_section__paragraph {
   text-align: justify;
   font-size: 2rem;
   color: var(--black-400);

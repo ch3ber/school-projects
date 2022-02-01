@@ -14,31 +14,31 @@
 </head>
 
 <body>
-  <header class="nav-container">
-    <a href="index.html">
-      <h1 class="nav-container__title">Veterinaria Codigo</h1>
+  <div class="nav_container">
+    <a href="index.html" class="nav_container__link_title">
+      <h1 class="nav_container__title">Veterinaria Codigo</h1>
     </a>
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__list__item"><a class="nav__list__item__link" href="index.html">Inicio</a></li>
-        <li class="nav__list__item"><a class="nav__list__item__link nav__list__item__link--active" href="horario.html">Horario</a></li>
-        <li class="nav__list__item"><a class="nav__list__item__link" href="horario.html">Testimonios</a></li>
+        <li class="nav__list__item"><a class="nav__link" href="index.html">Inicio</a></li>
+        <li class="nav__list__item"><a class="nav__link nav__link--active" href="horario.html">Horario</a></li>
+        <li class="nav__list__item"><a class="nav__link" href="horario.html">Testimonios</a></li>
       </ul>
     </nav>
-  </header>
+  </div>
 
-  <main class="horario-container">
-    <div class="hero-overlay">
-      <img class="hero" src="../src/assets/hero-horario.jpeg" alt="Black Cat">
-    </div>
+  <main class="horario_container">
+    <img class="hero" src="../src/assets/hero-horario.jpeg" alt="Black Cat">
 
-    <div class="horario-content">
+    <div class="horario_content">
+      <div class="horario_content__header">
+        <h2 class="horario_content__title">Horario de atencion a clientes</h2>
+        <marquee>Con los mejores doctores y la mejor tecnologia. Un gusto atender a tu mascota</marquee>
+      </div>
 
-      <h2 class="horario-content__title">Horario de atencion a clientes</h2>
-      <marquee>Con los mejores doctores y la mejor tecnologia. Un gusto atender a tu mascota</marquee>
       <table border="1" cellpadding="10">
         <tbody>
-          <tr class="table-titles">
+          <tr class="table_titles">
             <td>Sucursal</td>
             <td>Dias de atencion</td>
             <td>Horas de atencion</td>
@@ -60,7 +60,6 @@
           </tr>
         </tbody>
       </table>
-
     </div>
   </main>
 
