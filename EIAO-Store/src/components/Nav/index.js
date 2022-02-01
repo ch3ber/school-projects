@@ -12,10 +12,10 @@ export const Nav = () => {
           <a href="/#/Cart" class="nav__link">View Cart</a>
         </li>
         <li>
-          <a href="/#/login" class="nav__link">Login</a>
+          <a href="/#/login" class="nav__link nav__link--button">Login</a>
         </li>
         <li>
-          <button class="nav__link">LogOut</button>
+          <button class="nav__link nav__link--gosth-button">LogOut</button>
         </li>
       </ul>
     </nav>
