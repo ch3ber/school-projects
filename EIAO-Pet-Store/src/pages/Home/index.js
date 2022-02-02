@@ -2,12 +2,15 @@ import { Nav } from '../../components/Nav'
 import { Footer } from '../../components/Footer'
 import { ProductCard } from '../../components/ProductCard'
 import { getFromDatabase } from '../../utils/getFromDababase'
+import { LoggedNav } from '../../components/LoggedNav'
+import { user } from '../../login'
 
 export const Home = async () => {
+  console.log('home --- ' + user.getUserAuth())
   const products = await getFromDatabase('products')
 
   const view = `
-    ${Nav()}
+    ${user.getUserAuth() ? LoggedNav() : Nav()}
     <div class="home-container">
       <h1 class="home-container__title">Products</h1>
       <main class="home-container__products">
