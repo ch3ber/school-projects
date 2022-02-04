@@ -1,11 +1,9 @@
-import { Footer } from '../../components/Footer'
-import { Nav } from '../../components/Nav'
+import { Footer } from "../../components/Footer";
 
 export const Cart = () => {
   const view = `
-    ${Nav()}
     <p>cart</p>
     ${Footer()}
-  `
-  return view
-}
+  `;
+  return view;
+};
