@@ -1,9 +1,15 @@
+import { user } from "../../login";
+
 export const LoggedNav = () => {
   const view = `
     <nav class="nav">
       <a href="/" class="nav__link">
         <h2 nav__logo>EIAO Pet Store</h2>
       </a>
+      <div>
+        <p>Hola!</p>
+        ${user.name}
+      </div>
       <ul class="nav__list">
         <li>
           <a href="/" class="nav__link">Home</a>
@@ -16,6 +22,6 @@ export const LoggedNav = () => {
         </li>
       </ul>
     </nav>
-  `
-  return view
-}
+  `;
+  return view;
+};

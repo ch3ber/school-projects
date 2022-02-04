@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Celular Caro",
+      "name": "Husky",
       "price": 10000,
       "preview": "../src/assets/img/expensive-phone.jpg",
       "description": "Este es un celular caro, no lo compres gracias:)"
